@@ -27,11 +27,11 @@
 # 📖 Tic Tac Toe <a name="about-project"></a>
 
 <div align="center">
-  <img src="tic tac toe screenshot 1.jpg" alt="project sample" width="450"  height="auto" />
-  <img src="tic tac toe screenshot 2.jpg" alt="project sample" width="450"  height="auto" />
+  <img float="left" src="tic tac toe screenshot 1.jpg" alt="project sample" width="480"  height="auto" />
+  <img float="right" src="tic tac toe screenshot 2.jpg" alt="project sample" width="480"  height="auto" />
   <br/>
-  <img src="tic tac toe screenshot 3.jpg" alt="project sample" width="450"  height="auto" />
-  <img src="tic tac toe screenshot 4.jpg" alt="project sample" width="450"  height="auto" />
+  <img float="left" src="tic tac toe screenshot 3.jpg" alt="project sample" width="480"  height="auto" />
+  <img float="right" src="tic tac toe screenshot 4.jpg" alt="project sample" width="480"  height="auto" />
   <br/>
 
   <h3><b>Tic Tac Toe</b></h3>
