@@ -21,8 +21,8 @@ body {
 
 .select-box {
   background: white;
-  width: 270px;
-  height: 180px;
+  width: 400px;
+  height: 250px;
   border-radius: 5px;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .select-box h1 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: center;
   margin: 15px;
   padding-bottom: 10px;
@@ -45,9 +45,14 @@ body {
 }
 
 .title {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .option button {
@@ -55,9 +60,9 @@ body {
   color: white;
   outline: 0;
   border: none;
-  padding: 10px 24px;
+  padding: 20px 45px;
   border-radius: 5px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   cursor: pointer;
 }
 
