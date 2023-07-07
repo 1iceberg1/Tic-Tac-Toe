@@ -245,4 +245,41 @@ h1 {
     font-size: 1.3rem;
     padding: 18px 24px;
   }
+
+  .playboard {
+    padding: 30px 20px;
+  }
+
+  .playboard .detail {
+    width: 80%;
+  }
+
+  .playboard .detail .player span {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+
+  .playboard .play-area {
+    gap: 20px;
+  }
+
+  .playboard .play-area section {
+    gap: 20px;
+  }
+
+  .play-area section span {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    line-height: 100px;
+  }
+
+  .result-box .btn {
+    margin-top: 30px;
+  }
+
+  .result-box .btn button {
+    padding: 15px 24px;
+    font-size: 1.2rem;
+  }
 }
