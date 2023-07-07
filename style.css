@@ -17,7 +17,7 @@ body {
 
 :root {
   --pink: #c62dc6;
-  --pink-shadow: #b505b5;
+  --pink-shadow: #c04cc0;
 }
 
 .show {
@@ -31,6 +31,8 @@ body {
 .select-box,
 .playboard,
 .result-box {
+  width: 300px;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,12 +47,6 @@ body {
     0 -0.5rem 2rem var(--pink), 0 0.5rem 3rem var(--pink);
 }
 
-.select-box {
-  width: 300px;
-  height: 215px;
-  border-radius: 5px;
-}
-
 .select-box h1 {
   font-size: 1.8rem;
   text-align: center;
@@ -60,7 +56,7 @@ body {
 }
 
 .select-box .content {
-  margin: 0 15px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -98,23 +94,19 @@ body {
 /* playboard */
 .playboard {
   display: none;
-  /* opacity: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%) scale(-0.95); */
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 8px;
 }
 
 .playboard.show {
-  display: block;
-  /* opacity: 1;
-  pointer-events: auto;
-  transform: translate(-50%, -50%) scale(1); */
+  display: flex;
 }
 
 .playboard .detail {
   width: 100%;
-  background-color: white;
-  padding: 8px;
-  border-radius: 5px;
+  background-color: transparent;
 }
 
 .playboard .detail .player {
@@ -126,7 +118,7 @@ body {
 
 .playboard .detail span {
   width: 100%;
-  color: #c62dc6;
+  color: var(--pink);
   text-align: center;
   border-radius: 5px;
   padding: 7px;
@@ -147,13 +139,13 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background-color: #c62dc6;
+  background-color: var(--pink);
   border-radius: 5px;
   z-index: 2;
 }
 
 .player.active span:first-child {
-    color: #c62dc6;
+    color: var(--pink);
 }
 .player.active span:nth-child(2) {
     color: white;
@@ -163,36 +155,45 @@ body {
 }
 
 .playboard .play-area {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  text-shadow: 0 0 0 #fff, 0 0 1rem var(--pink-shadow),
+    -0.2rem 0.1rem 1rem var(--pink-shadow), 0.2rem 0.1rem 1rem var(--pink-shadow),
+    0 -0.5rem 2rem var(--pink), 0 0.5rem 2rem var(--pink);
 }
 
 .playboard .play-area section {
   display: flex;
+  gap: 13px;
 }
 
 .play-area section span {
   width: 80px;
   height: 80px;
-  background: white;
   border-radius: 5px;
-  margin: 2px;
   display: block;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
-  color: #c62dc6;
+  color: var(--pink);
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0.1rem #ffe6ff, 0 0 0.1rem #fff,
+    -0.1rem 0.1rem 0.1rem #fff, 0.1rem 0.1rem 0.1rem #fff,
+    0 -0.1rem 0.2rem #fff, 0 0.1rem 0.2rem #fff;
 }
 
 /* result box */
 .result-box {
-  background-color: white;
+  /* background-color: white; */
   padding: 20px;
   border-radius: 5px;
-  max-width: 350px;
-  width: 100%;
-  opacity: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%) scale(0.95);
+  display: none;
+  /* opacity: 0; */
+  /* pointer-events: none; */
+  /* transform: translate(-50%, -50%) scale(0.95); */
 }
 
 .result-box.show {
