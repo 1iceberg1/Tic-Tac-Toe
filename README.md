@@ -30,8 +30,7 @@
   <img src="tic tac toe screenshot 1.png" alt="project sample" width="650"  height="auto" />
   <img src="tic tac toe screenshot 2.png" alt="project sample" width="650"  height="auto" />
   <br/>
-  <img src="tic tac toe screenshot 3.jpg" alt="project sample" width="450"  height="auto" />
-  <img src="tic tac toe screenshot 4.jpg" alt="project sample" width="450"  height="auto" />
+  <img src="tic tac toe screenshot 3.png" alt="project sample" width="650"  height="auto" />
   <br/>
 
   <h3><b>Tic Tac Toe</b></h3>
