@@ -47,7 +47,7 @@ body {
     0 -0.1rem 0.2rem var(--pink), 0 0.1rem 0.2rem var(--pink);
 }
 
-.select-box h1 {
+h1 {
   font-size: 1.8rem;
   text-align: center;
   margin: 20px 0;
@@ -199,15 +199,6 @@ body {
   display: block;
 }
 
-.result-box .won-text {
-  font-size: 25px;
-  font-weight: 500;
-  text-align: center;
-  text-shadow: 0 0 0 #fff, 0 0 1rem var(--pink-shadow),
-    -0.2rem 0.1rem 1rem var(--pink-shadow), 0.2rem 0.1rem 1rem var(--pink-shadow),
-    0 -0.5rem 2rem var(--pink), 0 0.5rem 2rem var(--pink);
-}
-
 .result-box .won-text span {
   font-weight: 600;
   text-transform: uppercase;
@@ -228,4 +219,30 @@ body {
   border-radius: 5px;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .select-box,
+.playboard,
+.result-box {
+  width: 500px;
+}
+
+  h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+
+  .select-box .content {
+    margin-bottom: 30px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .option button {
+    font-size: 1.3rem;
+    padding: 18px 24px;
+  }
 }
