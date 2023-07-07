@@ -6,7 +6,26 @@
 }
 
 body {
-  background-color: #c62dc6;
+  background-color: #141114;
+  background-image: linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px),
+    linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+
+:root {
+  --pink: #c62dc6;
+  --pink-shadow: #b505b5;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .select-box,
@@ -17,27 +36,27 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid var(--pink);
+  box-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--pink-shadow),
+    -0.2rem 0.1rem 1rem var(--pink-shadow), 0.2rem 0.1rem 1rem var(--pink-shadow),
+    0 -0.5rem 2rem var(--pink), 0 0.5rem 3rem var(--pink);
 }
 
 .select-box {
-  background: white;
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 215px;
   border-radius: 5px;
 }
 
-.select-box.hide {
-  opacity: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%) scale(-0.95);
-}
-
 .select-box h1 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   text-align: center;
-  margin: 15px;
+  margin: 20px 0;
   padding-bottom: 10px;
-  border-bottom: 1px solid #c62dc6;
+  border-bottom: 1px solid var(--pink);
 }
 
 .select-box .content {
@@ -45,7 +64,8 @@ body {
 }
 
 .title {
-  font-size: 1.6rem;
+  text-align: center;
+  font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -60,7 +80,7 @@ body {
   color: white;
   outline: 0;
   border: none;
-  padding: 20px 45px;
+  padding: 14px 18px;
   border-radius: 5px;
   font-size: 1.1rem;
   cursor: pointer;
@@ -77,15 +97,17 @@ body {
 
 /* playboard */
 .playboard {
-  opacity: 0;
+  display: none;
+  /* opacity: 0;
   pointer-events: none;
-  transform: translate(-50%, -50%) scale(-0.95);
+  transform: translate(-50%, -50%) scale(-0.95); */
 }
 
 .playboard.show {
-  opacity: 1;
+  display: block;
+  /* opacity: 1;
   pointer-events: auto;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1); */
 }
 
 .playboard .detail {
@@ -174,9 +196,10 @@ body {
 }
 
 .result-box.show {
-    opacity: 1;
+  display: block;
+    /* opacity: 1;
     pointer-events: auto;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1); */
 }
 
 .result-box .won-text {
