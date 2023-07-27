@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rhaegar121.github.io/Tic-Tac-Toe/)
+- [Live Demo Link](https://tic-tac-toe121.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
