@@ -111,11 +111,11 @@ Use Github pages for free and secure deployment.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Aleksander Karlsen (Barry).
+> Aleksander Karlsen (ICEBERG).
 
 👤 **Aleksander Karlsen**
 
-- Portfolio: [rhbarry.me](https://rhbarry.me)
+- Portfolio: [akiceberg.me](https://akiceberg.me)
 - GitHub: [1iceberg1](https://github.com/1iceberg1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aleksanderkarlsen)
 
