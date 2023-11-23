@@ -85,7 +85,7 @@ Local Machine, Git, Text Editor (VS Code preferably)
 
 ### Setup
 
-Checkout the project repository <a href="https://github.com/Rhaegar121/Tic-Tac-Toe">here</a>
+Checkout the project repository <a href="https://github.com/1iceberg1/Tic-Tac-Toe">here</a>
 
 ### Install
 
@@ -111,14 +111,13 @@ Use Github pages for free and secure deployment.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Kaung Myat Kyaw (Barry).
+> Aleksander Karlsen (Barry).
 
-👤 **Kaung Myat Kyaw**
+👤 **Aleksander Karlsen**
 
 - Portfolio: [rhbarry.me](https://rhbarry.me)
-- GitHub: [Rhaegar121](https://github.com/Rhaegar121)
-- Twitter: [Rhaegar121](https://twitter.com/Rhaegar121)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaungmyatkyaw)
+- GitHub: [1iceberg1](https://github.com/1iceberg1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aleksanderkarlsen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
